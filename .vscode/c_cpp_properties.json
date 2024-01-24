@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Arduino",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/jerrywcy/.arduino15/**",
+                "/home/jerrywcy/Arduino/libraries/**",
+                "/home/jerrywcy/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino"
+            ],
+            "browse": {
+                "path": [
+                    "/home/jerrywcy/.arduino15/**",
+                    "/home/jerrywcy/Arduino/libraries/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "USBCON"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
